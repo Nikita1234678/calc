@@ -1,0 +1,20 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: cyan;
+    text-align: center;
+}
+button.butt_troll{
+    border-radius: 25px;
+    font-size: 50px;
+    margin-top: 75px;
+    height: 50%;
+    width: 80%;
+    background: #9600cd;
+}
+
+body > h1,h5{
+    font-family: Gabriola;
+    font-style: inherit;
+
+}

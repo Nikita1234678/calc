@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+a{
+    color: #99FFFF;
+}
+.troll_logo_name{
+    font-family: Gabriola;
+    font-style: inherit;
+    font-style: oblique;
+    margin: 3px;
+    font-size: 25px;
+
+}
+.last_chants_save{
+    font-family: Gabriola;
+    font-style: oblique;
+    font-style: inherit;
+    margin: 3px;
+    font-size: 15px;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../Image/dark-texture-watercolor.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.text{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.facts{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+.container {
+    width: 450px;
+    height: 60px;
+    position: absolute;
+    left:50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 450px;
+    height: 60px;
+    position: absolute;
+}
+
+.btn_first, .btn_two {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.btn_first{
+    border: 1px solid #91C9FF;
+}
+.btn_two{
+    /*margin-left: 10px;*/
+    border: 1px solid #FF0033;
+}
+
+svg.border_first {
+    position: absolute;
+    left: 23px;
+    top: 0;
+    fill: none;
+    stroke: #0033FF;
+    stroke-dasharray: 100 650;
+    stroke-dashoffset: 100;
+    transition: 1s ease-in-out;
+    border-radius: 5px;
+}
+
+svg.border_two {
+    position: absolute;
+    left: 228px;
+    top: 0;
+    fill: none;
+    stroke: red;
+    stroke-dasharray: 100 650;
+    stroke-dashoffset: 100;
+    transition: 1s ease-in-out;
+    border-radius: 5px;
+}
+
+.btn_first:hover {
+    transition: 1s ease-in-out;
+    background: black;
+}
+.btn_two:hover{
+    transition: 1s ease-in-out;
+    background: black;
+}
+
+.btn_first:hover svg {
+    stroke-dashoffset: -520;
+}
+.btn_two:hover svg{
+    stroke-dashoffset: 920;
+}
+
+.btn_first, .btn_two span {
+
+    font-size: 15px;
+    font-weight: 100;
+}
+.btn_first span{
+    color: #9999FF;
+}
+
+.btn_two span{
+    color: #FF6666;
+}
